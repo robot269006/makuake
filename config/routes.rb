@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # Select from:  index, show, new, edit, create, update, destroy
+  # devise_for :users
+  # root 'projects#index'
+  # resources :projects
+  # resources :products, except: [:show]
+  # resources :users
 end
