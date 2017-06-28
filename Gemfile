@@ -26,6 +26,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'pry-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# User management
+gem 'devise', '~> 4.3'
+
 group :production do
   gem 'unicorn'
 end
