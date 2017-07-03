@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'haml-rails'
 gem 'erb2haml'
 gem 'font-awesome-sass'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+
 
 #JS, responsive design
 gem 'jquery-rails'
