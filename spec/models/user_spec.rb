@@ -12,7 +12,7 @@ RSpec.describe User, type: :model do
 
     it 'has user validation working' do
       @user.user_name = nil
-      expect(@user).to_not be_valid
+      expect(@user).to be_valid
     end
   end
 end
