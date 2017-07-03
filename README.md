@@ -46,10 +46,10 @@
    | pjt_name               |        text |         not null|                 |
    | pjt_image              |      string |                 |                 |
    | pjt_description        |        text |                 |                 |
-   | money_collected        |        text |                 |                 |
-   | money_target           |        text |         not null|                 |
+   | money_collected        |     integer |                 |                 |
+   | money_target           |     integer |         not null|                 |
    | deadline               |        date |         not null|                 |
-   | admin id               |     integer |         not null|                 |
+   | user_type              |      string |         not null|                 |
    | category_project id    |     integer |                 |  ref:foreign_key|
    | project_user id        |     integer |                 |  ref:foreign_key| 
 
